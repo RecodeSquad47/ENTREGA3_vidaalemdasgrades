@@ -1,0 +1,326 @@
+body{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header{
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+}
+
+#title{
+  flex-direction: column;
+  line-height: 10px;
+}
+#perfilh2, #perfilh22{
+  font-weight: 250;
+}
+/*Cor Background Menu*/
+.bg-F28705 {
+    background-color: #F2695C !important;
+  }
+
+/*Cor Background index*/
+.bg-CD4F40{
+    background-color: white !important;
+}
+/*Cor Background contato e pagamento*/
+.bg-F8EDE5{
+    background-color: #ffffff!important;
+}
+/*Cor Background adicionar ao carrinho*/
+.bg-62330F{
+    background-color: #385B64 !important;
+}
+
+.logo img{
+    position:absolute;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+section,footer,table,p{
+    margin: 40px;
+}
+
+h1{
+    font-size: 40px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #F2695C;
+    color: #385B64;
+    text-transform: capitalize;
+    font-style: Tahoma;
+}
+
+h2{
+    font-size: 54px;
+    color: #385B64;
+    padding: 0%;
+    font-weight: 600;
+    font-style: Arial;
+}
+
+
+  a.btn-bg-F28705.text-bg-F8EDE5 {
+    width: 50%;
+    height: 40px;
+    text-align: center;
+  }
+
+h3,h5{
+  color: #385B64;
+  font-style: Arial;
+}
+.btn-bg-F28705{background-color: #F2695C !important;
+
+}
+
+.text-bg-F28705{
+    color: #F2695C !important;
+}
+.text-bg-62330F{
+    color: #385B64 !important;
+}
+
+.text-bg-F8EDE5{
+    color: white !important;
+}
+
+a{text-decoration: none;
+    background-color: #F2695C;
+    color: #385B64;
+    border-radius: 100px;
+    padding:5px 20px;
+    transition-duration: 1;
+}
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+  table{
+    width: 94%;
+}
+
+table td, table th{
+    padding: 5px;
+    border: 2px solid white;
+}
+
+table tr:nth-child(even){
+    background-color: #385B64;
+    text-align: center;
+    color: white;
+}
+
+table tr:nth-child(odd){
+    background-color: #F2695C;
+    text-align: center;
+    color: #385B64;
+    
+}
+
+table thead th{
+    background-color: #385B64;
+    color: white;
+}
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+  .carousel-item img {
+    max-width: 100%;
+    height: auto;
+  }
+  .carousel-caption h5 {
+    font-size: 50px;
+  }
+  
+  @media (max-width: 576px) {
+    /* Estilos para dispositivos móveis com largura máxima de 576px */
+    .carousel-caption h5 {
+      font-size: 14px;
+    }
+  }
+
+  @media (max-width: 992px){
+    .nav-link{
+      border-bottom:solid 1px #385B64;
+      border-radius: 0;
+    }
+  }
+  caption {
+    display: table-caption;
+    text-align: center;
+    caption-side: top;
+    padding: 10px;
+    font-weight: bold;
+    color: #F2695C;
+  }
+  p{
+    color: #385B64;
+  }
+  .navbar-toggler {
+    border: var(--bs-border-width) solid ;
+    color:#385B64
+  }
+
+  aside {
+    float: left;
+  }
+  .nav-brand {
+    background-color: #385B64;
+    color: #F2695C; 
+    padding: 5px 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    }
+
+/*     Adicionando estilo para quando o mouse passar por cima do botão */
+  .nav-brand:hover {
+    background-color: rgb(26, 61, 153);  
+    }
+    
+/*    .wrapper {*/
+/*    width: 420px;*/
+/*    background: palevioletred;*/
+/*    color: blanchedalmond;*/
+/*    border-radius: 10px;*/
+/*    padding: 30px 40px;*/
+/*}*/
+/*.wrapper form {*/
+/*    text-align: center;*/
+/*}*/
+
+/*.wrapper h1 {*/
+/*    font-size: 36px;*/
+/*    text-align: center;*/
+/*}*/
+/*.wrapper .input-box {*/
+/*    position: relative;*/
+/*    width: 100%;*/
+/*    height: 50px;*/
+/*    margin: 30px 0;*/
+/*}*/
+/*.input-box input {*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*    background: transparent;*/
+/*    border: none;*/
+/*    outline: none;*/
+/*    border: 2px solid royalblue;*/
+/*    border-radius: 40px;*/
+/*    padding: 20px 45px 20px 20px;*/
+/*}*/
+/*.input-box input::placeholder {*/
+/*    color:white;*/
+/*}*/
+/*.input-box i {*/
+/*    position: absolute;*/
+/*    right: 20px;*/
+/*    top: 50%;*/
+/*    transform: translateY(-50%);*/
+/*    font-size: 20px;*/
+/*}*/
+/*.wrapper .remenber-forgot {*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+/*    font-size: 14.5px;*/
+/*    margin: -15px 0 15px;*/
+/*}*/
+/*.remenber-forgot label input{*/
+/*    accent-color: white;*/
+/*    margin-right: 3px;*/
+/*}*/
+/*.remenber-forgot a {*/
+/*    color: white;*/
+/*    text-decoration: none;*/
+/*}*/
+/*.remenber-forgot a:hover {*/
+/*    text-decoration: underline;*/
+/*}*/
+/*.wrapper .btn {*/
+/*    width: 100%;*/
+/*    height: 45px;*/
+/*    background: white;*/
+/*    border: none;*/
+/*    outline: none;*/
+/*    border-radius: 40px;*/
+/*    box-shadow: 0 0 10px black;*/
+/*    cursor: pointer;*/
+/*    font-size: 16px;*/
+/*    color: #333;*/
+/*    font-weight: 600;*/
+/*}*/
+/*.wrapper .register-link {*/
+/*    font-size: 14.5px;*/
+/*    text-align: center;*/
+/*   margin: 20px 0 15px;*/
+/*}*/
+/*.register-link p a {*/
+/*    color: white;*/
+/*    text-decoration: none;*/
+/*    font-weight: 600;*/
+/*}*/
+/*.register-link p a:hover {*/
+/*    text-decoration: underline;*/
+/*}*/
+/* .card-body {*/
+/*  max-width: 400px;*/
+/*  margin: 0 auto;*/
+/*}*/
+
+/*.form-group {*/
+/*  margin-bottom: 1.5rem;*/
+/*}*/
+
+/*.form-label {*/
+/*  display: block;*/
+/*  margin-bottom: 0.5rem;*/
+/*  font-weight: bold;*/
+/*}*/
+
+/*.form-control {*/
+/*  width: 100%;*/
+/*  padding: 0.375rem 0.75rem;*/
+/*  font-size: 1rem;*/
+/*  line-height: 1.5;*/
+/*  border: 1px solid #ced4da;*/
+/*  border-radius: 0.25rem;*/
+/*  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;*/
+/*}*/
+
+/*.btn {*/
+/*  display: inline-block;*/
+/*  font-weight: 400;*/
+/*  text-align: center;*/
+/*  white-space: nowrap;*/
+/*  vertical-align: middle;*/
+/*  user-select: none;*/
+/*  border: 1px solid transparent;*/
+/*  padding: 0.375rem 0.75rem;*/
+/*  font-size: 1rem;*/
+/*  line-height: 1.5;*/
+/*  border-radius: 0.25rem;*/
+/*  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;*/
+/*}*/
+
+/*.btn-primary {*/
+/*  color: #fff;*/
+/*  background-color: #007bff;*/
+/*  border-color: #007bff;*/
+/*}*/
+
+/*.btn-primary:hover {*/
+/*  color: #fff;*/
+/*  background-color: #0056b3;*/
+/*  border-color: #0056b3;*/
+/*}*/
+

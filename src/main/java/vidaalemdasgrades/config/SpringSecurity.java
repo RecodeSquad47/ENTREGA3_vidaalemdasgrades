@@ -3,7 +3,7 @@ package vidaalemdasgrades.config;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.Lazy;
+//import org.springframework.context.annotation.Lazy;
 //import org.hibernate.validator.internal.util.stereotypes.Lazy;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
@@ -24,13 +24,13 @@ public class SpringSecurity {
 	private UserDetailsService userDetailsService;
 	
 	@Bean
-	static PasswordEncoder passwordEncoder() {
+	public static PasswordEncoder passwordEncoder() {
 		return new BCryptPasswordEncoder();
 	}
 	
 	@Bean
-	@Lazy
-	SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
+//	@Lazy
+	public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
 		http.csrf(csrf -> csrf.disable())
 				.authorizeHttpRequests((authorize) -> authorize
 						.requestMatchers("/assets/**").permitAll()

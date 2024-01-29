@@ -70,6 +70,6 @@ public class AuthController {
     public String users(Model model) {
         List<UserDto> users = userService.findAllUsers();
         model.addAttribute("users", users);
-        return "users";
+        return "views/usuarios/users";
     }
 }

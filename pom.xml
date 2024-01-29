@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.vidaalemdasgrades</groupId>
 	<artifactId>vidaalemdasgrades</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1</version>
 	<name>vidaalemdasgrades</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
